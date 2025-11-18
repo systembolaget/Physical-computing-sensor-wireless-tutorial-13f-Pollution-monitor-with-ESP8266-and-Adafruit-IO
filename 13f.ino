@@ -39,8 +39,8 @@ SensirionI2cSps30 sensor;
 // Instantiate an mqtt object with the server details and AIO credentials
 // Instantiate two feed objects we can publish our sensor data to
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_PORT, AIO_USERNAME, AIO_KEY);
-Adafruit_MQTT_Publish MC_P2_5(&mqtt, AIO_USERNAME "/feeds/MCP2_5");
-Adafruit_MQTT_Publish NC_P2_5(&mqtt, AIO_USERNAME "/feeds/NCP2_5");
+Adafruit_MQTT_Publish MCP25(&mqtt, AIO_USERNAME "/feeds/MCP25");
+Adafruit_MQTT_Publish NCP25(&mqtt, AIO_USERNAME "/feeds/NCP25");
 
 // Variables that remain constant
 const uint32_t timeSleep = 3e8; // 5 minutes, 6e8 = 10 minutes, 3e7 = 30 seconds for testing
@@ -163,9 +163,9 @@ void setup()
     }
 
   // Now, the data is published to the Adafruit IO feeds
-  MC_P2_5.publish(averageMc2p5);
+  MCP25.publish(averageMc2p5);
   delay(100);
-  NC_P2_5.publish(averageNc2p5);
+  NCP25.publish(averageNc2p5);
   delay(100);
 
   // Properly disconnect from the MQTT server and WiFi router
