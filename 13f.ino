@@ -17,20 +17,20 @@
 // fixed channel, and set a fixed IP address for your ESP8266. Use
 // 13f_router_channel_MAC_address.ino to confirm the channel
 // and to find your router's BSSID (= MAC address)
-const char* ssid = "Lagom";
-const char* password = "63948100905083530879";
+const char* ssid = "#";
+const char* password = "#";
 const uint8_t channel = 11;
 const uint8_t bssid[] = { 0xB4, 0xFC, 0x7D, 0x9F, 0x5C, 0x51 };
-IPAddress ip(192, 168, 178, 28);
-IPAddress gateway(192, 168, 178, 1);
+IPAddress ip(192, 168, #, #);
+IPAddress gateway(192, 168, #, #);
 IPAddress subnet(255, 255, 255, 0);
 IPAddress dns(1, 1, 1, 1);
 
 // Adafruit IO server details and AIO credentials
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_PORT 1883
-#define AIO_USERNAME "Systembolaget"
-#define AIO_KEY "aio_NARe09a6L6obDekLOq1s7YHAy8Ff"
+#define AIO_USERNAME "#"
+#define AIO_KEY "#"
 
 // Instantiate a client and sensor object from the library
 WiFiClient client;
