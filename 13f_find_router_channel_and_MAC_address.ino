@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "Lagom";
-const char* password = "63948100905083530879";
+const char* ssid = "#";
+const char* password = "#";
 
 void setup()
   {
-  Serial.begin(74880); // Use this baud rate for the ESP8266, serial only needed while debugging
+  Serial.begin(74880); // Use this baud rate for the ESP8266
 
   WiFi.begin(ssid, password);
 
