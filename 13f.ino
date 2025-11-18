@@ -19,8 +19,8 @@
 // and to find your router's BSSID (= MAC address)
 const char* ssid = "#";
 const char* password = "#";
-const uint8_t channel = 11;
-const uint8_t bssid[] = { 0xB4, 0xFC, 0x7D, 0x9F, 0x5C, 0x51 };
+const uint8_t channel = #;
+const uint8_t bssid[] = { 0x#, 0x#, 0x#, 0x#, 0x#, 0x# };
 IPAddress ip(192, 168, #, #);
 IPAddress gateway(192, 168, #, #);
 IPAddress subnet(255, 255, 255, 0);
