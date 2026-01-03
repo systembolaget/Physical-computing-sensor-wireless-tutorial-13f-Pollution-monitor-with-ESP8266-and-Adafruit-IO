@@ -1,6 +1,6 @@
 # Physical computing sensor wireless tutorial - Pollution monitor with ESP8266 and Adafruit IO
 
-Easily monitor particle pollution PM2.5 and NC2.5. Fast WiFi and MQTT connection plus deep-sleep to maximise battery capacity
+Monitor PM2.5 and NC2.5 particle pollution. Minimise battery depletion with fast WiFi and MQTT connections, and deep-sleep
 
 ### Setup
 
