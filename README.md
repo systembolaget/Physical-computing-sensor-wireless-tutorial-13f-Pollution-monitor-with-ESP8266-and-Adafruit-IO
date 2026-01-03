@@ -1,6 +1,6 @@
 # Physical computing sensor wireless tutorial - Pollution monitor with ESP8266 and Adafruit IO
 
-Fast WiFi and MQTT with deep-sleep to preserve battery capacity. Easily monitor PM2.5 and NC2.5, and transmit to Adafruit IO
+Fast WiFi and MQTT with deep-sleep to maximise battery capacity. Easily monitor particle pollution PM2.5 and NC2.5
 
 ### Setup
 
@@ -23,7 +23,7 @@ You can click the image to play the associated YouTube video
 €  3,00 Half-size transparent breadboard
 €  1,00 Breadboard mini modular black
 €  1,00 Jumper cables
-€  1,00 1 x 470Ω, 1 x 1kΩ and 2 x 10kΩ resistor
+€  1,00 1 x 470Ω, 1 x 1kΩ and 2 x 10kΩ resistors
 € 84,00
 </pre>  
 
